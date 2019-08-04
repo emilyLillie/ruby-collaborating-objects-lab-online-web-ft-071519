@@ -82,10 +82,6 @@ class Artist
   def save 
      @@all << self
   end 
-
-  # def songs
-  #   @songs
-  # end
   
    def songs
     Song.all.select do |song|
